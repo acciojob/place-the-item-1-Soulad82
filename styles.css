@@ -1,2 +1,20 @@
+.item {
+  width: 80px;
+  height: 80px;
+}
 
+/* example colors for 1,2,3,... */
+.item-1 { background: red; }
+.item-2 { background: blue; }
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7 { background: green; }
 /* Your CSS Code here. */
+.holder {
+  display: flex;                 /* activate flexbox */
+  flex-direction: row;           /* items in a row */
+  justify-content: space-between;/* first & last touch edges, space between items */
+  flex-wrap: wrap;               /* extra items move to next row, not squashed */
+}
